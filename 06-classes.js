@@ -7,6 +7,15 @@
 
 // Your code here
 
+class Point {
+	constructor(x, y) {
+		this.x = x;
+    this.y = y;
+	}
+  plus(pt) {
+    return new Point(this.x + pt.x, this.y + pt.y)
+  }
+}
 
 
 
